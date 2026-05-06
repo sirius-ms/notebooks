@@ -3,7 +3,7 @@ To run the notebook, create a new conda environment, then activate the environme
 conda create -n star_rosemary python
 conda activate star_rosemary
 pip install "git+https://github.com/sirius-ms/sirius-client-openAPI@star-protocol#subdirectory=client-api_python/generated"
-pip install pandas plotly pubchempy
+pip install pandas plotly pubchempy jupyter
 ```
 
 Download SIRIUS from https://github.com/sirius-ms/sirius/releases/tag/v6.5.0-SNAPSHOT, then start it using
