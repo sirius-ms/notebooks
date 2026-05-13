@@ -6,7 +6,14 @@ pip install "git+https://github.com/sirius-ms/sirius-client-openAPI@star-protoco
 pip install pandas plotly pubchempy jupyter
 ```
 
-Download SIRIUS from https://github.com/sirius-ms/sirius/releases/tag/v6.5.0-SNAPSHOT, then start it using
+Alternatively, use our [environment_jupyter.yaml](environment_jupyter.yaml) file to create the environment and install dependencies in one go. Then, activate the environment and install PySirius on top.
+```aiignore
+conda create --file environment_jupyter.yml
+conda activate star_rosemary
+pip install "git+https://github.com/sirius-ms/sirius-client-openAPI@star-protocol#subdirectory=client-api_python/generated"
+```
+
+Download SIRIUS from https://github.com/sirius-ms/sirius/releases/tag/v6.5.0-SNAPSHOT, then start it from the provided code or from CLI using
 ```aiignore
 sirius rest -s -p <port>
 ```
