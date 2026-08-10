@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.xpro.2026.104771-blue)](https://doi.org/10.1016/j.xpro.2026.104771)
+
 To run the notebook, create a new conda environment, then activate the environment and add all dependencies.
 ```aiignore
 conda create -n star_rosemary python
