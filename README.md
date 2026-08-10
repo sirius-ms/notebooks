@@ -4,8 +4,8 @@ This repository contains Jupyter notebooks demonstrating the programmatic use of
 
 ## Notebook Projects
 
-- **[FoldChange](file:///D:/PycharmProjects/notebooks/FoldChange/README.md)**: Replicates the protocol for untargeted LC-MS/MS metabolomics annotation and differential abundance (fold change) analysis from the STAR Protocols publication using a public rosemary dataset.
+- **[FoldChange](FoldChange/README.md)**: Replicates the protocol for untargeted LC-MS/MS metabolomics annotation and differential abundance (fold change) analysis from the STAR Protocols publication using a public rosemary dataset.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](file:///D:/PycharmProjects/notebooks/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
